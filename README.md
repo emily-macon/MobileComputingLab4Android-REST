@@ -7,3 +7,7 @@ Must download, configure, and run node server first found in Ultimate Repo.
 
 In BackgroundSubscribeIntentService:
   'private static final String BASE_URL = "{CHANGE_TO_YOUR_NODE_IP_ADDR}:8080"'
+  
+When using this with the FRDM-K64F board, you must register your beacons with the attachment type-name as the MAC addr of the board. The value is redundent and can be anything.
+
+The app must be open for beacons to be registered on the node server.
